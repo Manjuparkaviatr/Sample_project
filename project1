@@ -590,20 +590,3 @@ the third parameter is three
 number of parameters passed are : 3
 My name is : script1
 
-
-
-
-
-Shift operator - Using shift $1 becomes the source string and other arguments are shifted. $2 is shifted to $1, $3to $2 and so on
-
-while [ "$#" -gt 0 ]
-do
-echo "this is $1"
-shift
-sleep 1
-done
-
-
-
-
-
